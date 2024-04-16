@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function NavTabs(){
+export default function NavTabs(){
     
     return (
         <nav className="navbar fixed-top justify-content-center"
@@ -30,7 +30,4 @@ function NavTabs(){
             </ul>
         </nav>
     );
-
 }
-
-export default NavTabs;
