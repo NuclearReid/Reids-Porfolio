@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 const MinusSquareO: React.FC = props => (
   <svg {...props} viewBox="64 -65 897 897">
     <g>

@@ -20,7 +20,7 @@
     color: black;
 }
 
-/* home page css */
+/* Home Page css */
 #pageH1 {
     text-decoration: underline;
     font-size: 5rem;
@@ -30,6 +30,11 @@
     border-left: 0.25rem black solid;
     padding-left: 0.5rem;
 }
+
+/* My Projects page css */
+
+
+
 
 
 /* the waves */
