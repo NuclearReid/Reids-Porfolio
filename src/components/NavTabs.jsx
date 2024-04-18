@@ -19,7 +19,7 @@ export default function NavTabs(){
                 </li> */}
                 <li>
                     <Link to='/projects'id="nav-link" className="nav-link rounded-pill">
-                        My projects!
+                        My Work!
                     </Link>
                 </li>
                 <li>

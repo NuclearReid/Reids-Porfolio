@@ -30,6 +30,13 @@
     border-left: 0.25rem black solid;
     padding-left: 0.5rem;
 }
+.rounded-circle {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+
+}
 
 /* My Projects page css */
 
@@ -38,10 +45,19 @@
   height: 20rem;
 }
 
+#projectButton a{
+  color:white;
+  text-decoration: none;
+}
+#projectButton a:hover{
+  color: black;
+}
+
 #projectButton {
   background-color: black;
   color: white;
   border: none;
+  margin-top: 1rem;
 }
 #projectButton:hover{
   background-color: white;

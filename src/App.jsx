@@ -13,10 +13,13 @@ function App() {
     <>
     {/* <ReidBack /> */}
     <Nav />
-      <main className="pt-5">
+      <main className="pt-5 pb-5">
         <Outlet />
       </main>
-    <Waves />
+      <footer className='pt-5'>
+         <Waves/>
+      </footer>
+    
     </>
   )
 }
