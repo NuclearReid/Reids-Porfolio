@@ -93,40 +93,40 @@ export default function Projects() {
                             </div>
                          </div>
                     </div>
-
+                    {/* Simple Social Media API */}
                     <div className="col text-center">
-                        <a href='https://afternoon-shore-14413-3943e17402c9.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-                            <img id='projectLogo' src='../assets/greenThumbsLogo.jpeg' alt='Green Thumbs Logo' />
+                        <a href='https://github.com/NuclearReid/Simple-Social-Media-API' target="_blank" rel="noopener noreferrer">
+                            <img id='projectLogo' src='../assets/socialMediaAPILogo.png' alt='Social Media API Logo' />
                         </a>
                         <br/>
                         <div className='row'>
                             <div className='col-md'>
-                                <Button id="projectButton" onClick={() => handleShow('Green thumbs was a group project I helped build while enrolled in a full stack bootcamp. I was the project manager and was responsible for creating the backend and ensure our API was working optimally and for retrieving and storing the information sent to it by the users')}>
-                                    About Green thumbs!
+                                <Button id="projectButton" onClick={() => handleShow('This is just the backend for what could be a social media website. It allows the user to create users, thoughts, and reactions for those thoughts. Its used with ')}>
+                                    About my MongoDB API!
                                 </Button>
                             </div>
                             <div className='col-md'>
                                 <Button className='ml-2' id='projectButton'>
-                                    <a href="https://github.com/NuclearReid/Green-Thumbs"> The github repo</a>
+                                    <a href="https://github.com/NuclearReid/Simple-Social-Media-API"> The github repo</a>
                                 </Button>
                             </div>
                          </div>
                     </div>
-
+                    {/* coming soon */}
                     <div className="col text-center">
-                        <a href='https://afternoon-shore-14413-3943e17402c9.herokuapp.com/' target="_blank" rel="noopener noreferrer">
-                            <img id='projectLogo' src='../assets/greenThumbsLogo.jpeg' alt='Green Thumbs Logo' />
+                        <a href='#' target="_blank" rel="noopener noreferrer">
+                            <img id='projectLogo' src='../assets/crane.png' alt='Green Thumbs Logo' />
                         </a>
                         <br/>
                         <div className='row'>
                             <div className='col-md'>
-                                <Button id="projectButton" onClick={() => handleShow('Green thumbs was a group project I helped build while enrolled in a full stack bootcamp. I was the project manager and was responsible for creating the backend and ensure our API was working optimally and for retrieving and storing the information sent to it by the users')}>
-                                    About Green thumbs!
+                                <Button id="projectButton" onClick={() => handleShow('This project is coming soon!')}>
+                                    Coming soon!
                                 </Button>
                             </div>
                             <div className='col-md'>
                                 <Button className='ml-2' id='projectButton'>
-                                    <a href="https://github.com/NuclearReid/Green-Thumbs"> The github repo</a>
+                                    <a href="#"> The github repo</a>
                                 </Button>
                             </div>
                          </div>
