@@ -26,7 +26,7 @@ export default function Projects() {
                         <div className='row'>
                             <div className='col-md'>
                                 <Button id="projectButton" onClick={() => handleShow('Green thumbs was a group project I helped build while enrolled in a full stack bootcamp. I was the project manager and was responsible for creating the backend and ensure our API was working optimally and for retrieving and storing the information sent to it by the users')}>
-                                    About Green thumbs!
+                                    Green Thumbs
                                 </Button>
                             </div>
                             <div className='col-md'>
@@ -45,7 +45,7 @@ export default function Projects() {
                         <div className='row'>
                             <div className='col-md'>
                                 <Button id="projectButton" onClick={() => handleShow('This is a simple tech blog I created on my own primarily with mySQL for the backend, and handlebars for the front end. It allows for users to create an account, make posts, comment on posts, and to modify or delete the posts they have created')}>
-                                    About my Tech Blog!
+                                    A Simple Tech Blog
                                 </Button>
                             </div>
                             <div className='col-md'>
@@ -64,7 +64,7 @@ export default function Projects() {
                         <div className='row'>
                             <div className='col-md'>
                                 <Button id="projectButton" onClick={() => handleShow('This is a website made to help a user select a random movie based on a couple parameters chosen by the user. Once they click the Generate Movie button, they will be given a movie title, the year it came out, a description, and the youtube trailer is shown too. I was the project manager and responsible for the logic used to select the movie, and retrieving the data from the OMDB and Youtube API ')}>
-                                    About Movie Picker!
+                                    Movie Picker
                                 </Button>
                             </div>
                             <div className='col-md'>
@@ -83,7 +83,7 @@ export default function Projects() {
                         <div className='row'>
                             <div className='col-md'>
                                 <Button id="projectButton" onClick={() => handleShow('This is a README generator, using inquirer, it asks the user a number of questions about the project, such as, the license, installation instructions, description, etc, and creates a formated README using the provided answers. The README for this portfolio website was created with this README generator')}>
-                                    About my README generator!
+                                    README Generator
                                 </Button>
                             </div>
                             <div className='col-md'>
@@ -102,7 +102,7 @@ export default function Projects() {
                         <div className='row'>
                             <div className='col-md'>
                                 <Button id="projectButton" onClick={() => handleShow('This is just the backend for what could be a social media website. It allows the user to create users, thoughts, and reactions for those thoughts. Its used with ')}>
-                                    About my MongoDB API!
+                                    MongoDB API
                                 </Button>
                             </div>
                             <div className='col-md'>
@@ -121,7 +121,7 @@ export default function Projects() {
                         <div className='row'>
                             <div className='col-md'>
                                 <Button id="projectButton" onClick={() => handleShow('This project is coming soon!')}>
-                                    Coming soon!
+                                    Coming soon
                                 </Button>
                             </div>
                             <div className='col-md'>

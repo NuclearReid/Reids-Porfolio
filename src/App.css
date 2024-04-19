@@ -1,6 +1,7 @@
  *{
-    font-family: "Italiana", sans-serif;
+    font-family: "Newsreader", serif;
     font-style: normal;
+    cursor: none;
 } 
 
 /* navbar css */
@@ -48,9 +49,11 @@
 #projectButton a{
   color:white;
   text-decoration: none;
+  cursor: none;
 }
 #projectButton a:hover{
   color: black;
+  cursor: none;
 }
 
 #projectButton {
@@ -58,6 +61,8 @@
   color: white;
   border: none;
   margin-top: 1rem;
+  cursor: none;
+  /* padding: .5rem 1rem .5rem 1rem */
 }
 #projectButton:hover{
   background-color: white;
@@ -67,8 +72,39 @@
   transform: none;
 }
 
+/* Contact me CSS */
+
+#messageBody {
+  height: 5rem;
+}
 
 
+
+/* cursor stuff */
+body {
+  height: 100vh;
+  background: white;
+  cursor: none;
+  margin: 0;
+  display: flex;
+  font-family: monospace;
+
+  .cursor {
+    pointer-events: none;
+
+    &__ball {
+      position: fixed;
+      top: 0;
+      left: 0;
+      mix-blend-mode: difference;
+      z-index: 1000;
+
+      circle {
+        fill: black;
+      }
+    }
+  }
+}
 
 /* the waves */
 

@@ -4,6 +4,7 @@ import Nav from './components/NavTabs';
 import Waves from './components/Waves';
 // import ReidBack from './components/ReidBack';
 import './App.css'
+// import Cursor from './utils/cursor'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <>
     {/* <ReidBack /> */}
     <Nav />
+
       <main className="pt-5 pb-5">
         <Outlet />
       </main>
