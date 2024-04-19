@@ -14,9 +14,9 @@ export default function Something() {
         const inputType = target.name;
         const inputValue = target.value;
 
-        if (inputType === 'email') {
+        if (inputType === 'email' && inputValue.length <=40) {
             setEmail(inputValue);
-        } else if (inputType === 'messageBody') {
+        } else if (inputType === 'messageBody' && inputValue.length <=500) {
             setBody(inputValue);
         }
     };
