@@ -1,13 +1,16 @@
-export default function About() {
-    return ( 
-        <div>
-            <h1>About me</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi voluptatibus aperiam sed libero id quaerat veritatis possimus accusantium magnam eum ullam a tenetur quasi, 
-                consectetur, iure maxime. Modi, voluptas maiores.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio distinctio ex officiis veniam natus fuga autem. Voluptatibus cumque molestiae sit ipsam 
-                suscipit corporis facere earum! 
-                Ipsa tenetur laudantium ipsum perspiciatis?</p>
-        </div>
-    );
-}
+import {useRouteError } from 'react-router-dom';
 
+export default function ErrorPage() {
+    const error = useRouteError();
+    console.log(error);
+
+    return (
+        <div id='error-page' className='p-5'>
+            <h1> Womp Womp!</h1>
+            <p>You wont find anything here!</p>
+            <p>
+                <i>{error.statusText || error.message}</i>    
+            </p>            
+        </div>
+    )
+}

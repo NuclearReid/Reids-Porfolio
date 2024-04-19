@@ -3,13 +3,16 @@ import { Button } from 'react-bootstrap';
 import { validateEmail } from '../../src/utils/helpers';
 
 export default function Something() {
+
+    // the states for the form field
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [messageBody, setBody] = useState('');
+    // used for the images and to have them inverse when you hover over them
     const [isHoveredLinked, setIsHoveredLinked] = useState(false);
     const [isHoveredGit, setIsHoveredGit] = useState(false);
 
-
+    // gets the values for when the user enters something into the form. (I don't do anything with it yet)
     const handleInputChange = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -35,7 +38,7 @@ export default function Something() {
         setEmail('');
         setBody('');
     };
-
+    // used to swap out the images with the inversed one when you hover over it
     const handleImageHoverGit = () => {
         setIsHoveredGit(!isHoveredGit);
     };

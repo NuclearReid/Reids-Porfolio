@@ -131,7 +131,6 @@ export default function Projects() {
                             </div>
                          </div>
                     </div>
-                    
                 </div>
             </div>
             <Modal show={show} onHide={handleClose}>
