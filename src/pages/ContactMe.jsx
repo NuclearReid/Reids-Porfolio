@@ -4,6 +4,7 @@ import { validateEmail } from '../../src/utils/helpers';
 
 export default function Something() {
     const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
     const [messageBody, setBody] = useState('');
     const [isHoveredLinked, setIsHoveredLinked] = useState(false);
     const [isHoveredGit, setIsHoveredGit] = useState(false);
@@ -18,6 +19,8 @@ export default function Something() {
             setEmail(inputValue);
         } else if (inputType === 'messageBody' && inputValue.length <=500) {
             setBody(inputValue);
+        } else if (inputType === 'name' && inputValue.length <=30){
+            setName(inputValue);
         }
     };
 
@@ -45,6 +48,15 @@ export default function Something() {
             <h1 id='pageH1'> Contact me! </h1>
             <div className='col contactForm'>
                 <form className="form" onSubmit={handleFormSubmit}>
+                <div className='mb-3'>
+                        <input
+                            value={email}
+                            name='name'
+                            onChange={handleInputChange}
+                            type='text'
+                            placeholder='Your Name'
+                        />
+                    </div>
                     <div className='mb-3'>
                         <input
                             value={email}
