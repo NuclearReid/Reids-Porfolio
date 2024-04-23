@@ -1,8 +1,57 @@
-# React + Vite
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  # Reid Back's Portfolio
+  
+  ## Description
+  
+   This is my portfolio, it's a small example of some work I have done and what my styling looks like like. I used a couple third party libraries for the functionality/animations. Click on the logos (generated with microsoft copilot) to either see the deployed application (if it has a front end) or be taken to the github repo if it doesn't have a frontend. 
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Contribute](#contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Installation
 
-Currently, two official plugins are available:
+  ### The command that is needed to install the required dependenceies
+  `
+  n/a
+  `
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Usage
+  
+  n/a
+  
+  ## Credits
+  
+  Goodkatz (for the waves) Clement Girault (for the cursor)
+  
+  ## License
+  
+  MIT license
+## Notice
+
+More information about the License being used
+ [Link to the license](https://mit-license.org/)
+  
+  ## Badges
+  
+  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+  
+  ## Contribute
+  
+  n/a 
+  
+  ## Tests
+  
+  n/a  
+  
+  ## Questions
+    
+  If you have any questions, feel free to reach out to me at my [GitHub profile.](https://github.com/NuclearReid) or email me at reid.backcnmt@gmail.com
+  
