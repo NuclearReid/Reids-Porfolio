@@ -5,6 +5,8 @@
   ## Description
   
    This is my portfolio, it's a small example of some work I have done and what my styling looks like like. I used a couple third party libraries for the functionality/animations. Click on the logos (generated with microsoft copilot) to either see the deployed application (if it has a front end) or be taken to the github repo if it doesn't have a frontend. 
+
+   [My Portfolio](https://main--reids-portfolio.netlify.app/)
   
   ## Table of Contents
   
